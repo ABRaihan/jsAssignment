@@ -37,11 +37,5 @@ function megaFriend(names) {
         }
     }
     let largeName = names[0]
-    // if the large length name stays many times so it will add all the large name
-    for (let i = 1; i < names.length; i++){
-        if (names[0].length === names[i].length) {
-            largeName += ', ' + names[i];
-        }
-    }
     return largeName;
 }
